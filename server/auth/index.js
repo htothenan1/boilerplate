@@ -1,7 +1,7 @@
 const router = require("express").Router()
 const {
 	models: { Owner },
-} = require("../db")
+} = require("../../server/db/owners")
 module.exports = router
 
 router.post("/login", async (req, res, next) => {
